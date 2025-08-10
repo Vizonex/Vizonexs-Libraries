@@ -55,4 +55,12 @@ Simple plain python that doesn't have any attirbutes to other libraries explaine
 | [pyllparse](https://github.com/Vizonex/pyllparse) | Python Parody of nodejs llparse simillar concept to pyppeteer & puppeteer but it allows for python devs to write and Generate Low Level C Parsers | Owner | Active On & Off | It's mature it just needed some changes so that it could be user friendly instead for myself only and some class objects needed good stress-testing.
 
 ## Contributions 
-TODO
+This is a curated list of libraries that I wish to help or keep maintaing in the years to come some of these libraries are used by thousands upon thousands of users and they need help especially different opinions and input and people to be there to solve a problem when a vulnerability happens or an unitended bug needs patching. This could also be a group or orginization Example: [aio-libs](https://github.com/aio-libs) which happens to be most of these. 
+
+If you can't find anything in the Notable Contributions section, it's because either I didn't feel like adding it or it wasn't super important to share.
+
+| Library | Summary | Notable Contributions | Currently trying to do |
+|---------|---------|-----------------------|--------------------|
+| [multidict](https://github.com/aio-libs/multidict) | It is intended for http-headers with entries that can appear or repeat themselves multiple times rather than using a dictionary with many lists for values this cuts out the need for doing so and has some future potential for sorting data in other ways rather than  parameters or what it's currently used for | I'm implementing a C-API Capsule to try and optimize aiohttp's http-parser and help with some bottle-necks with the http-writer in Cython it should appear in 6.7.0 if were lucky | Fix a memory leak with `md_clear` it should be noted that multidict used to be a pairlist but moved to using hashtables, code seems to be based off CPython's Dictionary Object.  
+
+More coming later as I continue to write. I sometimes have outside inqueries that are unrelated.
