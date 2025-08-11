@@ -1,7 +1,10 @@
-# Awesome-Vizonex
+# Vizonex's Libraries
 Unlike most other coding compilations that are under some form of coding language I wanted
 users to be able to find my other libraries I maintain or contribute to while
-aiding with a user's laziness. 
+aiding with a user's laziness. I couldn't pin all of them so I decided to write a repo for it 
+even if that embarrasses me later down the line. Winloop seems to be getting all the attention and love these days
+but I didn't want to forcibly promote my other projects from over there. Those who seek to see what else I do should be 
+allowed to easily begin to find it which is why this repo is now being pinned as first on my profile page.
 
 So I wrote this down to make it easier to see what projects I contribute to as well as my goals 
 or current priorities without turning it into a super journal. Feel free to contribute to these
