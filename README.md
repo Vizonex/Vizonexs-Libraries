@@ -1,7 +1,7 @@
 # Awesome-Vizonex
 Unlike most other coding compilations that are under some form of coding language I wanted
-users to be able to find my other libraries I maintain or contribute to without while
-aiding in a user's laziness. 
+users to be able to find my other libraries I maintain or contribute to while
+aiding with a user's laziness. 
 
 So I wrote this down to make it easier to see what projects I contribute to as well as my goals 
 or current priorities without turning it into a super journal. Feel free to contribute to these
