@@ -16,12 +16,37 @@ It's worth noting that some projects may repeat themselves if the library fits m
 
 ## Contents
 
+* [Todos](#Todos) My Current Agenda From Urgent to least urgent or am procrastinating.
+
 * [asyncio](#Asyncio) aio or asyncio related projects
 * [python](#Python) Python related projects that aren't cython or asyncio related.
 * [cython](#Cython-Libraries) Language uses or is cython related 
 * [miscellaneous](#Miscellaneous) Other Projects 
 * [contributing](#Contributing) Things I am Contributing to or am a co-author or maintainer of. If anything is note-worthy I will try to point it out.
 * [wasteland](#Wasteland) Obsolete or dead projects that either I have no intentions on continuing or don't have motivation to maintain.
+
+
+## Todos
+
+Todo list is summarized as my agenda or things required to get from A - B. These are also my personal goals.
+
+Urgency levels are as follows
+
+| Level | Summary |
+|-------|---------|
+| 0 - 2 | Not in the right mood to implement bug fix or procrastinating due to no motivation or it's burn-out or motivation has run dry | 
+| 3 - 4 | I'm in an ok mood to do it but it's not something I'm willing to work on right away unless people urgently need my help and can actually show up |
+| 5 - 6 | Willing to revisit several times a week if things can get moving along or enough people can guide me through it all | 
+| 7 - 8 | Somewhat desperate and might be revisiting once a day | 
+| 9 - 10 | I'm on my knees and am desperately trying to finish or am constantly brute-forcing to have it done | 
+
+
+ 
+| Title | Summary | Issue numbers OR PRs |  Urgency Level (0-10)  | Reason |  Requires  |
+|---------|--------|----------------------| ---------------------|-----|------------|
+| Multidict C-API Capsule | Speeds up aiohttp by a shitton (35% performance increase) and allows users to utilize it in Cython and C | https://github.com/aio-libs/multidict/pull/1190 & https://github.com/aio-libs/aiohttp/pull/11320 | 9.5 | It will allow for mass connections and writing data in very little time and will reduce a lot of python's lag and clunkiness | Reviewing and responsiveness mainly the work is done just needs those final touches and the cherry on top |
+| aiohttp with http/2 support | Http/2 support for aiohttp (Benefits include bot detection evasion, mass connections to server increasing, hosting an http/2 website (Who doesn't love that I've never had one before but I would certainly love having one programmed :))  I am constantly implementing my own libraries like llh2 which I hope aiohttp accepts as it's main resource for frame parsing in the future)| | 4 | It's mainly the pure python portions that leave a slightly bitter taste in my mouth which is why I am slightly less motivated than I am about Multidict C-API | There will need to be an implementation of upgrading to http2 and a system that swaps the http-parser adn http-writer on upgrading I have an implementation that ignores h2 and just uses it's dependencies but the maintainers seem to have a different pov than my own on how it should be done. I like my implementation but it seems others have different ideas. | |
+| cimport propcache as a cython library  | Allows for caching properties in Cython but also will help me establish a new library that will allow users to write a depcreated-properties library for python & cython without needing multiple wrappers chained together | https://github.com/aio-libs/propcache/pull/130 |  7 | Slightly motivated because deprecated-params was inspirational and did me wonders | Code-Coverage needs assistance unless someone that can merge it says otherwise there's a tiny possibility it may get rejected for the same reason that frozenlist didn't get accepted (which was ABI Related) If this is the case This will be annoying but I may have to copy and paste that code in deprecated-properties for it to have a cython portion and a pure-python protion :/ putting links to the original source does not sound fun to me. Even though I always do so so that I'm not being a cheapskate or a sucker |  |
 
 ## Asyncio
 
