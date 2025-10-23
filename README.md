@@ -72,7 +72,7 @@ Cython related projects meant to help smooth bottlenecks with some denser projec
 |---------|---------|------------------|----------------| --- |
 | [winloop](https://github.com/Vizonex/winloop) | A Maintained Fork of uvloop made just for windows users who want faster asynchronous code with a unix-like personallity. With the goal of helping users who are life-locked to windows and can't use other operating systems supported by uvloop | Founder & Current Maintainer | Active On & Off | since library is extremely mature only need to come back every now and then if there's a bug or a new optimization is discovered (Which is pretty rare) |
 | [cyares](https://github.com/Vizonex/cyares) | An Asynchronous DNS Resolver inspired by pycares built in Cython instead of cffi. It is meant to have more aggressive code to fight against common vulnerabilities | Owner | Active | I am actively Pushing out new extensions or implementing ideas I wanted to be included in pycares or aiodns|
-
+| [pyduktape3](https://github.com/Vizonex/pyduktape3) | Another duktape cython library becuase the other 2 versions are unmaintained | Owner | Planned | Wanted to improve and optimize the 2 older versions and make an asyncio adaptatation with anyio |
 
 ## Python
 Simple plain python that doesn't have any attirbutes to other libraries explained above
