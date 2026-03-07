@@ -45,7 +45,7 @@ Urgency levels are as follows
  
 | Title | Summary | Issue numbers OR PRs |  Urgency Level (0-10)  | Reason |  Requires  |
 |---------|--------|----------------------| ---------------------|-----|------------|
-| Update Cyares to 0.5.0 | Need to get caught up with some of aiodns's new changes | | 6 | Currently having a tiny amount of burnout | Reviewing aiodns's functions for name changes and more |
+| Update Cyares to 0.5.0 | Need to get caught up with some of aiodns's new changes | | 1 | Currently having a tiny amount of burnout | Reviewing aiodns's functions for name changes and more |
 
 ## Asyncio
 
